@@ -3198,6 +3198,54 @@
         uploadTimeoutPlaceTxt:'上传超时__',
         uploadErrorPlaceTxt:'上传错误__',
       }
+      
+      E.langs['es'] = {
+          bold: 'Negrita',
+          underline: 'Subrayado',
+          italic: 'Cursiva',
+          forecolor: 'Color',
+          bgcolor: 'Color de resaltado',
+          strikethrough: 'Teclado',
+          eraser: 'Borrador',
+          source: 'Codeview',
+          quote: 'Citas',
+          fontfamily: 'Fuente',
+          fontsize: 'Tamaño de letra',
+          head: 'Titulo',
+          orderlist: 'Lista ordenada',
+          unorderlist: 'lista desordenada',
+          alignleft: 'Aliniar a la izquierda',
+          aligncenter: 'Aliniar al centro',
+          alignright: 'Aliniar a la derecha',
+          link: 'Insertar link',
+          linkTarget: 'Modo de abrir',
+          text: 'Texto',
+          submit: 'Enviar',
+          cancel: 'Cancelar',
+          unlink: 'Quitar link',
+          table: 'Tabla',
+          emotion: 'Emoticones',
+          img: 'Imagen',
+          uploadImg: 'Subir',
+          linkImg: 'Link',
+          video: 'Video',
+          width: 'Ancho',
+          height: 'Alto',
+          location: 'Localizacion',
+          loading: 'Cargando',
+          searchlocation: 'buscar',
+          dynamicMap: 'Dinamico',
+          clearLocation: 'Borrar',
+          langDynamicOneLocation: 'Solo una localizacion en el mapa',
+          insertcode: 'Insertar codigo',
+          undo: 'Paso atras',
+          redo: 'Paso adelante',
+          fullscreen: 'Pantalla completa',
+          openLink: 'Abrir link',
+          uploadPlaceTxt:'uploading__',
+          uploadTimeoutPlaceTxt:'upload_timeout__',
+          uploadErrorPlaceTxt:'upload_error__',
+      }
 
       // 英文
       E.langs.en = {
@@ -3268,7 +3316,7 @@
       E.config.legalTags = 'p,h1,h2,h3,h4,h5,h6,blockquote,table,ul,ol,pre'
 
       // 语言包
-      E.config.lang = E.langs['zh-cn']
+      E.config.lang = E.langs['es']
 
       // 菜单配置
       E.config.menus = [
